@@ -1,0 +1,6 @@
+{
+    "name": "package-coffeescript",
+    "dependencies": {
+        "coffee-script": "1.7.1"
+    }
+}

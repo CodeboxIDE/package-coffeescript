@@ -1,4 +1,3 @@
-package-coffeescript
-====================
+# Markdown preview
 
-CoffeeScript compiler in the IDE
+This package contains a markdown previewer for Codebox.
