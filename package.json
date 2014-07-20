@@ -6,14 +6,7 @@
     "engines": {
         "codebox": ">=1.0.0"
     },
-    "dependencies": {
-        "coffee-script": "1.7.1",
-        "bower": "1.3.8"
-    },
     "packageDependencies": {
         "editor": "CodeboxIDE/package-editor"
-    },
-    "scripts": {
-        "postinstall": "node node_modules/bower/bin/bower install"
     }
 }
