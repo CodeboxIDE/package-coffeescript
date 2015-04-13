@@ -10,12 +10,12 @@ commands.register({
     shortcuts: [
         "ctrl+shift+c"
     ],
-    run: function(args, context) {
-        var name = context.model.get("name").replace(context.model.getExtension(), ".js");
+    run: function(args, ctx) {
+        var name = ctx.editor.model.get("name").replace(ctx.editor.model.getExtension(), ".js");
         var code, error;
 
         try {
-            code = coffeeScript.compile(context.getContent());
+            code = coffeeScript.compile(ctx.editor.getContent());
         } catch (e) {
             error = e;
             code = e.toString();
