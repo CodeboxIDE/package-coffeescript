@@ -4,7 +4,7 @@
     "description": "CoffeeScript previewer",
     "browser": "./src/index.js",
     "engines": {
-        "codebox": ">=1.0.0"
+        "codebox": ">=1.0.0-alpha"
     },
     "dependencies": {
         "coffee-script": "1.7.1"
